@@ -6,13 +6,5 @@
 4. under "TPU Settings" set "TPU software version" to tpu-ubuntu2204-base and "TPU type" to your TPU type
 5. under "Management" select Preemptibility if desired
 
-# Install Jax
 
-per https://cloud.google.com/tpu/docs/run-calculation-jax:
-```sh
-python3 -m pip install jax[tpu] -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
-```
-
-# Run Jax
-
-TODO
+# Create your TPU
